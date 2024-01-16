@@ -1,0 +1,14 @@
+
+@media (max-width: 1600px) {
+    input[type="text"] {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .bgimgone{
+        background-image: url('../img/ppp.png');
+        background-size: cover;
+        opacity: .5;
+    }
+}

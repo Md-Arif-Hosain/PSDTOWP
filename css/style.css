@@ -1,0 +1,69 @@
+/* 
+Theme Name: E-shool
+Theme Url:arifpsd0.netlify.app
+Theme Author: Md. Arif Hosain
+Description: Convert HTML to WordPress theme.
+*/
+/* Google Font Use */
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;800&display=swap');
+
+  /* Global Css */
+*{
+    margin:0px;
+    padding: 0px;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Figtree', sans-serif;
+}
+.container{
+	max-width:1260px;
+}
+/* Header Css */
+.hero-section{
+    background: #F0FFF0;
+}
+
+ul.navbar-nav.mb-2.mb-lg-0.gap-3 {
+font-size: 16px;
+font-weight: 400;
+line-height: normal;
+}
+.feature-content{
+    box-shadow: 0px 10px 30px lightblue inset;
+}
+.arifaa {
+    padding: 12px;
+}
+
+.feature-content:hover{
+   background-color: #fdfdfd !important;
+   border: 1px solid green;
+   border-radius: 10px;
+   box-shadow: 0px 20px 40px rgb(0, 0, 0, 0,1);
+}
+.online .card.p-4 {
+    box-shadow:0px 25px 40px #f3f0f0;
+    border: none;
+}
+
+/* Header CSS */
+ul#menu-main-menu li a{
+    display: flex !important;
+}
+ul#menu-main-menu {
+    display: flex;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #524d4d;
+}
+
+.hero-section ul li#menu-item-260 {
+    background-color: aqua;
+    color: red !important;
+}
+/* End Css */
